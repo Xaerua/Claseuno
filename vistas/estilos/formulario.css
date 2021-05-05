@@ -1,0 +1,57 @@
+.banner-formulario {
+    background-image: url("../../imagenes/imagen4.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.contenedor-formulario {
+    min-height: calc(100vh - 100px - 30px - 350px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 48%;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 48%;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5em;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-bottom: 1px solid rgb(123, 191, 255);
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 20%;
+}

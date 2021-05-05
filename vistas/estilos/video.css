@@ -1,0 +1,11 @@
+.banner-video {
+    background-image: url("../../imagenes/imagen3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
